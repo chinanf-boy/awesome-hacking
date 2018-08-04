@@ -1,65 +1,82 @@
-# Awesome Hacking [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Hacking. Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning/)
+# 真棒,黑客[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![translate-svg]][translate-list]
 
-If you want to contribute to this list (please do), send me a pull request or contact me [@carpedm20](https://twitter.com/carpedm20)
+[translate-svg]: http://llever.com/translate.svg
+[translate-list]: https://github.com/chinanf-boy/chinese-translate-list
 
-For a list of free hacking books available for download, go [here](https://github.com/Hack-with-Github/Free-Security-eBooks)
+精彩黑客的精选列表. 灵感来自[真棒,机器学习](https://github.com/josephmisiti/awesome-machine-learning/)
+
+如果您想参与此列表 (请执行) ,请向我发送拉取请求或与我联系[@carpedm20](https://twitter.com/carpedm20)
+
+有关可供下载的免费黑客书籍列表,请转到[这里](https://github.com/Hack-with-Github/Free-Security-eBooks)
+
+### 原文 commit / 日期
+
+- `commit` https://github.com/carpedm20/awesome-hacking/tree/08d93c53423affb1efa14de989bc34e3ce05c0f6
+
+- ⏰ 2018 6.17
+
+[更多其他中文翻译](https://github.com/chinanf-boy/chinese-translate-list)
+
+### 贡献
+
+欢迎 👏 勘误/校对/更新贡献 😊 [具体贡献请看](https://github.com/chinanf-boy/chinese-translate-list#贡献)
+
+## 生活
+
+[help me live , live need money 💰](https://github.com/chinanf-boy/live-need-money)
 
 
-## Table of Contents
+## 目录
 
-<!-- MarkdownTOC depth=4 -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [System](#system)
-    - [Tutorials](#system-tutorials)
-    - [Tools](#system-tools)
-    - [Docker](#system-docker)
-    - [General](#system-general)
-- [Reverse Engineering](#reverse-engineering)
-    - [Tutorials](#reverse-engineering-tutorials)
-    - [Tools](#reverse-engineering-tools)
-    - [General](#reverse-engineering-general)
-- [Web](#web)
-    - [Tutorials](#web-tutorials)
-    - [Tools](#web-tools)
-- [Network](#network)
-    - [Tutorials](#network-tutorials)
-    - [Tools](#network-tools)
-- [BugBounty](#bugbounty)
-- [Forensic](#forensic)
-    - [Tutorials](#forensic-tutorials)
-    - [Tools](#forensic-tools)
-- [Cryptography](#cryptography)
-    - [Tutorials](#cryptography-tutorials)
-    - [Tools](#cryptography-tools)
-- [Wargame](#wargame)
-    - [System](#wargame-system)
-    - [Reverse Engineering](#wargame-reverse-engineering)
-    - [Web](#wargame-web)
-    - [Network](#wargame-network)
-    - [Forensic](#wargame-forensic)
-    - [Cryptography](#wargame-cryptography)
+
+- [系统方面](#%E7%B3%BB%E7%BB%9F%E6%96%B9%E9%9D%A2)
+  - [教程](#%E6%95%99%E7%A8%8B)
+  - [工具](#%E5%B7%A5%E5%85%B7)
+    - [有关渗透测试和安全方面的Docker镜像](#%E6%9C%89%E5%85%B3%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%92%8C%E5%AE%89%E5%85%A8%E6%96%B9%E9%9D%A2%E7%9A%84docker%E9%95%9C%E5%83%8F)
+  - [常用](#%E5%B8%B8%E7%94%A8)
+- [逆向方面](#%E9%80%86%E5%90%91%E6%96%B9%E9%9D%A2)
+  - [教程](#%E6%95%99%E7%A8%8B-1)
+  - [工具](#%E5%B7%A5%E5%85%B7-1)
+  - [常用](#%E5%B8%B8%E7%94%A8-1)
+- [Web方面](#web%E6%96%B9%E9%9D%A2)
+  - [工具](#%E5%B7%A5%E5%85%B7-2)
+- [网络方面](#%E7%BD%91%E7%BB%9C%E6%96%B9%E9%9D%A2)
+  - [工具](#%E5%B7%A5%E5%85%B7-3)
+- [取证方面](#%E5%8F%96%E8%AF%81%E6%96%B9%E9%9D%A2)
+  - [工具](#%E5%B7%A5%E5%85%B7-4)
+- [密码方面](#%E5%AF%86%E7%A0%81%E6%96%B9%E9%9D%A2)
+    - [工具](#%E5%B7%A5%E5%85%B7-5)
+- [Wargame方面](#wargame%E6%96%B9%E9%9D%A2)
+  - [系统](#%E7%B3%BB%E7%BB%9F)
+  - [逆向工程](#%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)
+  - [Web](#web)
+  - [加密](#%E5%8A%A0%E5%AF%86)
+  - [Bug赏金](#bug%E8%B5%8F%E9%87%91)
 - [CTF](#ctf)
-    - [Competition](#ctf-competition)
-    - [General](#ctf-general)
+  - [比赛](#%E6%AF%94%E8%B5%9B)
+  - [常用](#%E5%B8%B8%E7%94%A8-2)
 - [OS](#os)
-    - [Online resources](#online-resources)
-- [ETC](#etc)
+  - [在线资源](#%E5%9C%A8%E7%BA%BF%E8%B5%84%E6%BA%90)
+- [其他](#%E5%85%B6%E4%BB%96)
 
-<!-- /MarkdownTOC -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# System
 
-## Tutorials
- * [Corelan Team's Exploit writing tutorial](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/)
- * [Exploit Writing Tutorials for Pentesters](http://www.punter-infosec.com/exploit-writing-tutorials-for-pentesters/)
+# 系统方面
 
-## Tools
- * [Metasploit](https://github.com/rapid7/metasploit-framework) A computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
- * [mimikatz](https://github.com/gentilkiwi/mimikatz) - A little tool to play with Windows security
+## 教程
+ * [Corelan团队的Exploit写作教程](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/)
+ * [为渗透测试员开发的Exploit写作教程](http://www.punter-infosec.com/exploit-writing-tutorials-for-pentesters/)
 
-### Docker Images for Penetration Testing & Security
+## 工具
+ * [Metasploit](https://github.com/rapid7/metasploit-framework) - 一个计算机安全项目，提供有关安全漏洞的信息，并帮助进行渗透测试和入侵检测系统开发。
+ * [mimikatz](https://github.com/gentilkiwi/mimikatz) - 一个玩Windows安全有用的工具
+
+### 有关渗透测试和安全方面的Docker镜像
  * `docker pull kalilinux/kali-linux-docker` [official Kali Linux](https://hub.docker.com/r/kalilinux/kali-linux-docker/)
  * `docker pull owasp/zap2docker-stable` - [official OWASP ZAP](https://github.com/zaproxy/zaproxy)
  * `docker pull wpscanteam/wpscan` - [official WPScan](https://hub.docker.com/r/wpscanteam/wpscan/)
@@ -77,126 +94,127 @@ For a list of free hacking books available for download, go [here](https://githu
  * `docker pull citizenstig/nowasp` - [OWASP Mutillidae II Web Pen-Test Practice Application](https://hub.docker.com/r/citizenstig/nowasp/)
  * `docker pull bkimminich/juice-shop` - [OWASP Juice Shop](https://github.com/bkimminich/juice-shop#docker-container--)
 
-## General
- * [Exploit database](https://www.exploit-db.com/) - An ultimate archive of exploits and vulnerable software
+## 常用
+ * [Exploit database](https://www.exploit-db.com/) - 漏洞利用和易受攻击软件的终极存档库
 
 
-# Reverse Engineering
+# 逆向方面
 
-## Tutorials
-* [Lenas Reversing for Newbies](https://tuts4you.com/download.php?list.17)
-* [Malware Analysis Tutorials: a Reverse Engineering Approach](http://fumalwareanalysis.blogspot.kr/p/malware-analysis-tutorials-reverse.html)
+## 教程
 
-## Tools
- * [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Java tool to let the browser talk to the JVM
- * [IDA](https://www.hex-rays.com/products/ida/) - IDA is a Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger
- * [OllyDbg](http://www.ollydbg.de/) - A 32-bit assembler level analysing debugger for Windows
- * [x64dbg](http://x64dbg.com/) - An open-source x64/x32 debugger for Windows
- * [dex2jar](https://github.com/pxb1988/dex2jar) - Tools to work with Android .dex and Java .class files
- * [JD-GUI](http://jd.benow.ca/) - A standalone graphical utility that displays Java source codes of “.class” files
- * [procyon](https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler) - A modern open-source Java decompiler
- * [androguard](https://code.google.com/p/androguard/) - Reverse engineering, malware and goodware analysis of Android applications
- * [JAD](http://varaneckas.com/jad/) - JAD Java Decompiler (closed-source, unmaintained)
- * [dotPeek](https://www.jetbrains.com/decompiler/) - a free-of-charge .NET decompiler from JetBrains
- * [ILSpy](https://github.com/icsharpcode/ILSpy/) - an open-source .NET assembly browser and decompiler
- * [dnSpy](https://github.com/0xd4d/dnSpy) - .NET assembly editor, decompiler, and debugger 
- * [de4dot](https://github.com/0xd4d/de4dot) - .NET deobfuscator and unpacker. 
- * [antinet](https://github.com/0xd4d/antinet) - .NET anti-managed debugger and anti-profiler code 
- * [UPX](http://upx.sourceforge.net/) - the Ultimate Packer for eXecutables
- * [radare2](https://github.com/radare/radare2) - A portable reversing framework
- * [plasma](https://github.com/joelpx/plasma) - Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code.
- * [Hopper](https://www.hopperapp.com) - A OS X and Linux Disassembler/Decompiler for 32/64-bit Windows/Mac/Linux/iOS executables.
- * [ScratchABit](https://github.com/pfalcon/ScratchABit) - Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API
+* [逆转新手](https://tuts4you.com/download.php?list.17)
+* [恶意软件分析教程：逆向工程](http://fumalwareanalysis.blogspot.kr/p/malware-analysis-tutorials-reverse.html)
 
-
-
-## General
- * [Open Malware](http://www.offensivecomputing.net/)
+## 工具
+ * [nudge4j](https://github.com/lorenzoongithub/nudge4j) - 让浏览器与JVM交互的Java工具
+ * [IDA](https://www.hex-rays.com/products/ida/) - IDA是可以工作在Windows，Linux或Mac OS X的多处理反汇编和调试工具
+ * [OllyDbg](http://www.ollydbg.de/) - Windows 32位汇编程序级别调试工具
+ * [x64dbg](http://x64dbg.com/) - Windows上开源x64/x32调试工具
+ * [dex2jar](https://github.com/pxb1988/dex2jar) - 用于处理用于处理Android .dex和Java .class文件的工具
+ * [JD-GUI](http://jd.benow.ca/) - 显示Java源代码“.class”文件的独立图形实用工具
+ * [procyon](https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler) - 现代化开源Java反编译工具
+ * [androguard](https://code.google.com/p/androguard/) - 用于Android应用程序的逆向工程，恶意软件分析工具
+ * [JAD](http://varaneckas.com/jad/) - JAD Java反编译工具(闭源, 不常更新)
+ * [dotPeek](https://www.jetbrains.com/decompiler/) - JetBrains公司开发的免费的.NET反编译工具
+ * [ILSpy](https://github.com/icsharpcode/ILSpy/) - 开源的集浏览和反编译.NET程序工具
+ * [dnSpy](https://github.com/0xd4d/dnSpy) - 集编辑，反编译和调试.NET程序工具
+ * [de4dot](https://github.com/0xd4d/de4dot) - 破解.NET程序工具
+ * [antinet](https://github.com/0xd4d/antinet) - 用于反编译和混淆代码的.NET程序工具
+ * [UPX](http://upx.sourceforge.net/) - 终极封装可执行文件工具
+ * [radare2](https://github.com/radare/radare2) - 便携式的逆向工程框架工具
+ * [plasma](https://github.com/joelpx/plasma) - 适用于x86/ARM/MIPS交互式反汇编，使用花指令语法代码生成伪代码。
+ * [Hopper](https://www.hopperapp.com) - 适用于OS X和Linux反汇编/反编译32/64位Windows/MAC/LINUX/iOS的可执行文件工具
+ * [ScratchABit](https://github.com/pfalcon/ScratchABit) - 使用IDAPython兼容插件API轻松重新定位和可攻击的交互式反汇编工具
 
 
-# Web
 
-## Tools
- * [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
- * [tools.web-max.ca](http://tools.web-max.ca/encode_decode.php) - base64 base85 md4,5 hash, sha1 hash encoding/decoding
+## 常用
+ * [开放的恶意软件查询](http://www.offensivecomputing.net/)
 
 
-# Network
+# Web方面
 
-## Tools
- * [Wireshark](https://www.wireshark.org/) - A free and open-source packet analyzer
- * [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - A Network Forensic Analysis Tool (NFAT)
- * [tcpdump](http://www.tcpdump.org/) - A powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture
- * [Paros](http://sourceforge.net/projects/paros/) - A Java-based HTTP/HTTPS proxy for assessing web application vulnerability
- * [pig](https://github.com/rafael-santiago/pig) - A Linux packet crafting tool
- * [ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - The Zed Attack Proxy (ZAP) is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications
- * [mitmproxy](https://mitmproxy.org/) - An interactive, SSL-capable man-in-the-middle proxy for HTTP with a console interface
- * [mitmsocks4j](https://github.com/Akdeniz/mitmsocks4j) - Man-in-the-middle SOCKS Proxy for Java
- * [ssh-mitm](https://github.com/jtesta/ssh-mitm) - An SSH/SFTP man-in-the-middle tool that logs interactive sessions and passwords.
- * [nmap](https://nmap.org/) - Nmap (Network Mapper) is a security scanner
- * [Aircrack-ng](http://www.aircrack-ng.org/) - An 802.11 WEP and WPA-PSK keys cracking program
- * [Charles Proxy](https://charlesproxy.com) - A cross-platform GUI web debugging proxy to view intercepted HTTP and HTTPS/SSL live traffic
- * [Nipe](https://github.com/GouveaHeitor/nipe) - A script to make Tor Network your default gateway. 
- * [Habu](https://github.com/portantier/habu) - Python Network Hacking Toolkit
- * [Wifi Jammer](https://n0where.net/wifijammer/) - Free program to jam all wifi clients in range
- * [Firesheep](https://codebutler.github.io/firesheep/) - Free program for HTTP session hijacking attacks.
- * [Scapy](https://github.com/secdev/scapy) - A Python tool and library for low level packet creation and manipulation
- * [Amass](https://github.com/caffix/amass) - In-depth subdomain enumeration tool that performs scraping, recursive brute forcing, crawling of web archives, name altering and reverse DNS sweeping
+## 工具
+ * [sqlmap](https://github.com/sqlmapproject/sqlmap) - 自动SQL注入和数据库入侵工具
+ * [tools.web-max.ca](http://tools.web-max.ca/encode_decode.php) - base64，base85编码/解码
 
 
-# Forensic
+# 网络方面
 
-## Tools
- * [Autopsy](http://www.sleuthkit.org/autopsy/) - A digital forensics platform and graphical interface to [The Sleuth Kit](http://www.sleuthkit.org/sleuthkit/index.php) and other digital forensics tools
- * [sleuthkit](https://github.com/sleuthkit/sleuthkit) - A library and collection of command-line digital forensics tools
- * [EnCase](https://www.guidancesoftware.com/products/Pages/encase-forensic/overview.aspx) - The shared technology within a suite of digital investigations products by Guidance Software
- * [malzilla](http://malzilla.sourceforge.net/) - Malware hunting tool
- * [PEview](http://wjradburn.com/software/) - A quick and easy way to view the structure and content of 32-bit Portable Executable (PE) and Component Object File Format (COFF) files
- * [HxD](http://mh-nexus.de/en/hxd/) - A hex editor which, additionally to raw disk editing and modifying of main memory (RAM), handles files of any size
- * [WinHex](http://www.winhex.com/winhex/) - A hexadecimal editor, helpful in the realm of computer forensics, data recovery, low-level data processing, and IT security
- * [BinText](http://www.mcafee.com/kr/downloads/free-tools/bintext.aspx) - A small, very fast and powerful text extractor that will be of particular interest to programmers
+## 工具
+ * [Wireshark](https://www.wireshark.org/) - 免费开源的流量包分析工具
+ * [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - 网络取证分析工具
+ * [tcpdump](http://www.tcpdump.org/) - 功能强大的命令行流量包分析工具，自带的libpcap用于网络流量捕获的便携式C/C++库
+ * [Paros](http://sourceforge.net/projects/paros/) - 基于Java的HTTP/HTTPS代理用于评估Web应用程序漏洞工具
+ * [pig](https://github.com/rafael-santiago/pig) - Linux下伪造流量包工具
+ * [ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - ZAP是用于发现Web应用程序中漏洞易于使用的集成式渗透测试工具
+ * [mitmproxy](https://mitmproxy.org/) - 基于HTTP具有交互式控制界面并支持SSL中间代理的工具
+ * [mitmsocks4j](https://github.com/Akdeniz/mitmsocks4j) - 基于Java支持中间SOCKS代理工具
+ * [nmap](https://nmap.org/) - Nmap安全扫描工具
+ * [Aircrack-ng](http://www.aircrack-ng.org/) - 用于破解802.11 WEP和WPA-PSK密钥工具
+ * [Charles Proxy](https://charlesproxy.com) - 用于查看截获的HTTP和HTTPS/SSL实时流量的跨平台图形化用户界面Web调试代理工具
+ * [Nipe](https://github.com/GouveaHeitor/nipe) - 使Tor网络成为默认网关的脚本
+-   [habu](https://github.com/portantier/habu)-  Python网络黑客工具包
+-   [Wifi Jammer](https://n0where.net/wifijammer/)- 免费程序,以阻止范围内的所有WiFi客户端
+-   [Firesheep](https://codebutler.github.io/firesheep/)- 针对HTTP会话劫持攻击的免费程序. 
+-   [Scapy](https://github.com/secdev/scapy)- 用于低级数据包创建和操作的Python工具和库
+-   [Amass](https://github.com/caffix/amass)- 深入的子域枚举工具,可执行抓取,递归暴力破解,抓取Web存档,更改名称和反向DNS扫描
 
+# 取证方面
 
-# Cryptography
+## 工具
+ * [Autospy](http://www.sleuthkit.org/autopsy/) - 数字取证平台，[The Sleuth Kit](http://www.sleuthkit.org/sleuthkit/index.php)的图形界面，还包含其他数字取证工具。
+ * [sleuthkit](https://github.com/sleuthkit/sleuthkit) - 收集各种命令行数字取证工具库
+ * [EnCase](https://www.guidancesoftware.com/products/Pages/encase-forensic/overview.aspx) - Guidance Software开发的一套使用共享技术数字取证工具
+ * [malzilla](http://malzilla.sourceforge.net/) - 恶意软件抓捕工具
+ * [PEview](http://wjradburn.com/software/) - 快速简便查看程序结构和32位可移植可执行文件（PE）以及组件对象文件格式（COFF）文件的内容
+ * [HxD](http://mh-nexus.de/en/hxd/) - 十六进制编辑器，除了主存储器（RAM）的原始磁盘编辑和修改之外，可以处理任何大小的文件。
+ * [WinHex](http://www.winhex.com/winhex/) - 十六进制编辑器，有助于计算机取证，数据恢复，低级数据处理和IT安全领域。
+ * [BinText](http://www.mcafee.com/kr/downloads/free-tools/bintext.aspx) - 一个小而快强大的文本提取器，程序员特别感兴趣。
 
-### Tools
- * [xortool](https://github.com/hellman/xortool) - A tool to analyze multi-byte XOR cipher
- * [John the Ripper](http://www.openwall.com/john/) - A fast password cracker
- * [Aircrack](http://www.aircrack-ng.org/) - Aircrack is 802.11 WEP and WPA-PSK keys cracking program.
+# 密码方面
 
+### 工具
+ * [xortool](https://github.com/hellman/xortool) - 一种分析多字节XOR密码工具
+ * [John the Ripper](http://www.openwall.com/john/) - 快速密码破解工具
+ * [Aircrack](http://www.aircrack-ng.org/) - 802.11 WEP和WPA-PSK密钥破解工具
 
-# Wargame
+# Wargame方面
 
-## System
+## 系统
  * [OverTheWire - Semtex](http://overthewire.org/wargames/semtex/)
  * [OverTheWire - Vortex](http://overthewire.org/wargames/vortex/)
  * [OverTheWire - Drifter](http://overthewire.org/wargames/drifter/)
- * [pwnable.kr](http://pwnable.kr/) - Provide various pwn challenges regarding system security
+ * [pwnable.kr](http://pwnable.kr/) - 提供有关系统安全性的各种pwn挑战
  * [Exploit Exercises - Nebula](https://exploit-exercises.com/nebula/)
  * [SmashTheStack](http://smashthestack.org/)
 
-## Reverse Engineering
- * [Reversing.kr](http://www.reversing.kr/) - This site tests your ability to Cracking & Reverse Code Engineering
- * [CodeEngn](http://codeengn.com/challenges/) - (Korean)
- * [simples.kr](http://simples.kr/) - (Korean)
- * [Crackmes.de](http://crackmes.de/) - The world first and largest community website for crackmes and reversemes.
+## 逆向工程
+
+-   [Reversing.kr](http://www.reversing.kr/)- 该网站测试您的破解和反向代码工程的能力
+-   [CodeEngn](http://codeengn.com/challenges/)-  (韩国) 
+-   [simples.kr](http://simples.kr/)-  (韩国) 
+-   [Crackmes.de](http://crackmes.de/)- 世界上第一个也是最大的社区网站,用于破解和逆转. 
 
 ## Web
- * [Hack This Site!](https://www.hackthissite.org/) - a free, safe and legal training ground for hackers to test and expand their hacking skills
- * [Hack The Box](https://www.hackthebox.eu) - a free site to perform pentesting in a variety of different systems.
- * [Webhacking.kr](http://webhacking.kr/)
- * [0xf.at](https://0xf.at/) - a website without logins or ads where you can solve password-riddles (so called hackits).
+
+-   [破解这个网站!](https://www.hackthissite.org/)- 为黑客提供免费,安全和合法的培训基地,以测试和扩展他们的黑客技能
+-   [劈开盒子](https://www.hackthebox.eu)- 一个免费的网站，可以在各种不同的系统中进行测试. 
+-   [Webhacking.kr](http://webhacking.kr/)
+-   [0xf.at](https://0xf.at/)- 没有登录或广告的网站,您可以在其中解决密码谜语 (所谓的hackits). 
 
 
-## Cryptography
+## 加密
+
  * [OverTheWire - Krypton](http://overthewire.org/wargames/krypton/)
 
-## Bug bounty
-  * [Awesome bug bounty resources by EdOverflow](https://github.com/EdOverflow/bugbounty-cheatsheet)
+## Bug赏金
+
+-   [EdOverflow 的 bug赏金资源](https://github.com/EdOverflow/bugbounty-cheatsheet)
 
 # CTF
 
-## Competition
+## 比赛
  * [DEF CON](https://legitbs.net/)
  * [CSAW CTF](https://ctf.isis.poly.edu/)
  * [hack.lu CTF](http://hack.lu/)
@@ -208,21 +226,24 @@ For a list of free hacking books available for download, go [here](https://githu
  * [Codegate CTF](http://ctf.codegate.org/html/Main.html?lang=eng)
  * [Boston Key Party CTF](http://bostonkeyparty.net/)
 
-## General
- * [Hack+](http://hack.plus) - An Intelligent network of bots that fetch the latest InfoSec content.
- * [CTFtime.org](https://ctftime.org/) - All about CTF (Capture The Flag)
- * [WeChall](http://www.wechall.net/)
- * [CTF archives (shell-storm)](http://shell-storm.org/repo/CTF/)
- * [Rookit Arsenal](https://amzn.com/144962636X) - OS RE and rootkit development
- * [Pentest Cheat Sheets](https://github.com/coreb1t/awesome-pentest-cheat-sheets) - Collection of cheat sheets useful for pentesting
- * [Movies For Hackers](https://github.com/k4m4/movies-for-hackers) - A curated list of movies every hacker & cyberpunk must watch.
+## 常用
+
+-   [Hack+](http://hack.plus)- 获取最新InfoSec内容的智能机器人网络. 
+-   [CTFtime.org](https://ctftime.org/)- 所有关于CTF (夺旗) 
+-   [WeChall](http://www.wechall.net/)
+-   [CTF档案 (炮弹风暴) ](http://shell-storm.org/repo/CTF/)
+-   [Rookit Arsenal](https://amzn.com/144962636X)-  OS RE和rootkit开发
+-   [Pentest 备忘单](https://github.com/coreb1t/awesome-pentest-cheat-sheets)- 收集用于测试的备忘单
+-   [黑客电影](https://github.com/k4m4/movies-for-hackers)- 每个黑客和赛博朋克必须观看的精选电影列表. 
 
 # OS
 
-## Online resources
- * [Security related Operating Systems @ Rawsec](http://rawsec.ml/en/security-related-os/) - Complete list of security related operating systems
- * [Best Linux Penetration Testing Distributions @ CyberPunk](https://n0where.net/best-linux-penetration-testing-distributions/) - Description of main penetration testing distributions
- * [Security @ Distrowatch](http://distrowatch.com/search.php?category=Security) - Website dedicated to talking about, reviewing and keeping up to date with open source operating systems
+## 在线资源
 
-# ETC
- * [SecTools](http://sectools.org/) - Top 125 Network Security Tools
+-   [与安全相关的操作系统 @Rawsec](http://rawsec.ml/en/security-related-os/)- 完整的安全相关操作系统列表
+-   [最佳Linux渗透测试发行版 @Cyber​​Punk](https://n0where.net/best-linux-penetration-testing-distributions/)- 主要渗透测试分布的描述
+-   [Security @ Distrowatch](http://distrowatch.com/search.php?category=Security)- 致力于讨论,审查和跟上开源操作系统的网站
+
+# 其他
+
+-   [SecTools](http://sectools.org/)- 排名前125的网络安全工具
