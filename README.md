@@ -10,13 +10,20 @@
 
 有关可供下载的免费黑客书籍列表,请转到[这里](https://github.com/Hack-with-Github/Free-Security-eBooks)
 
-### 原文 commit / 日期
+## 校对✅
 
-- `commit` https://github.com/carpedm20/awesome-hacking/tree/08d93c53423affb1efa14de989bc34e3ce05c0f6
+<!-- doc-templite START generated -->
+<!-- time = '2018 6.17' -->
 
-- ⏰ 2018 6.17
+翻译的原文 | 与日期 | 最新更新 | 更多
+---|---|---|---
+[commit] | ⏰ 2018 6.17 | ![last] | [more]
+<!-- doc-templite END generated -->
 
-[更多其他中文翻译](https://github.com/chinanf-boy/chinese-translate-list)
+
+[commit]:  https://github.com/carpedm20/awesome-hacking/tree/08d93c53423affb1efa14de989bc34e3ce05c0f6
+[more]: https://github.com/chinanf-boy/chinese-translate-list
+[last]: https://img.shields.io/github/last-commit/chinanf-boy/awesome-hacking.svg
 
 ### 贡献
 
