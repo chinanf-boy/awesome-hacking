@@ -18,12 +18,13 @@
 翻译的原文 | 与日期 | 最新更新 | 更多
 ---|---|---|---
 [commit] | ⏰ 2018 6.17 | ![last] | [more]
+
 <!-- doc-templite END generated -->
 
 
 [commit]:  https://github.com/carpedm20/awesome-hacking/tree/08d93c53423affb1efa14de989bc34e3ce05c0f6
 [more]: https://github.com/chinanf-boy/chinese-translate-list
-[last]: https://img.shields.io/github/last-commit/chinanf-boy/awesome-hacking.svg
+[last]: https://img.shields.io/github/last-commit/carpedm20/awesome-hacking.svg
 
 ### 贡献
 
